@@ -10,6 +10,10 @@ Python and is designed to be easily extendable for future updates.
     - [Description](#description)
     - [Usage](#usage)
     - [Functions](#functions)
+  - [Solution for Day 2](#solution-for-day-2)
+    - [Description](#description-1)
+    - [Usage](#usage-1)
+    - [Functions](#functions-1)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -28,10 +32,26 @@ The solution for Day 1 reads pairs of integers from an input file and calculates
     ```
 
 ### Functions
-- [calculate_total_distance(left_list, right_list)](http://_vscodecontentref_/0): Calculates the total 
+- [calculate_total_distance(left_list, right_list)](advent_one.py): Calculates the total 
 distance between two sorted lists.
-- [calculate_similarity_score(left_list, right_list)](http://_vscodecontentref_/1): Calculates the 
+- [calculate_similarity_score(left_list, right_list)](advent_one.py): Calculates the 
 similarity score based on the frequency of integers in the lists.
+
+## Solution for Day 2
+
+### Description
+The solution for Day 2 reads lines of integers from an input file and counts the number of "safe" reports based on specific criteria.
+
+### Usage
+1. Place your input file named `input.txt` in the root directory of the repository.
+2. Run the `advent_two.py` script:
+    ```sh
+    python advent_two.py
+    ```
+
+### Functions
+- [is_safe(levels)](advent_two.py): Determines if a list of integers is "safe" based on specific criteria.
+- [count_safe_reports(data)](advent_two.py): Counts the number of "safe" reports in the provided data.
 
 ## Contributing
 Feel free to contribute to this repository by adding new solutions or improving existing ones. To 
