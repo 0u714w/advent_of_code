@@ -44,11 +44,3 @@ php advent_php/advent_one.php
 ### Requirements
 Python 3.x
 PHP 7.x or higher
-
-### Installation
-
-Clone the repository:
-
-git clone <git@github.com:0u714w/advent_of_code.git>
-cd <advent_of_code>
-
